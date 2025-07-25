@@ -7,8 +7,11 @@ Requisitos
 
 Cómo usarlo
 copia y pega esto en PowerShell 
+
 irm "https://raw.githubusercontent.com/Shadi-001/MenuRenombrarArchivos/refs/heads/main/MenuRenombrarArchivos.ps1" | iex
+
 o si tienes problemas 
+
 powershell -ExecutionPolicy Bypass -NoProfile -Command "irm 'https://raw.githubusercontent.com/Shadi-001/MenuRenombrarArchivos/main/MenuRenombrarArchivos.ps1' | iex"
 
 o descargalo y Haz clic derecho sobre el archivo Renombrar.ps1 y selecciona "Ejecutar con PowerShell"
