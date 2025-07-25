@@ -6,15 +6,12 @@ Requisitos
 -Permisos para ejecutar scripts de PowerShell (puedes usar -ExecutionPolicy Bypass)
 
 Cómo usarlo
-Descarga o clona este repositorio:
+copia y pega esto en PowerShell 
+irm "https://raw.githubusercontent.com/Shadi-001/MenuRenombrarArchivos/refs/heads/main/MenuRenombrarArchivos.ps1" | iex
+o si tienes problemas 
+powershell -ExecutionPolicy Bypass -NoProfile -Command "irm 'https://raw.githubusercontent.com/Shadi-001/MenuRenombrarArchivos/main/MenuRenombrarArchivos.ps1' | iex"
 
-git clone https://github.com/Shadi-001/MenuRenombrarArchivos.git
-cd Menu RenombrarArchivos
-
-Haz clic derecho sobre el archivo Renombrar.ps1 y selecciona "Ejecutar con PowerShell"
-O abre PowerShell manualmente y ejecuta:
-
-powershell -ExecutionPolicy Bypass -File .\Renombrar.ps1
+o descargalo y Haz clic derecho sobre el archivo Renombrar.ps1 y selecciona "Ejecutar con PowerShell"
 
 Funcionalidades
 ✅ Selección de carpeta con explorador gráfico
